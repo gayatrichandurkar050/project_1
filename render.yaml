@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: project-1
+    runtime: node
+    buildCommand: "yarn"
+    startCommand: "node server.js"
+    plan: free
